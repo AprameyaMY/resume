@@ -86,6 +86,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 80%;
+  object-fit: contain;
 }
 
 .intro {
@@ -101,4 +102,24 @@ body {
   margin-left:0%
   
   width: 80%;
+}
+.logo_
+{
+width: 50px;
+height:50px
+}
+
+
+
+img {
+  display: inline;
+  margin: 0 auto;
+  height: 100%;
+  width: auto;
+}
+img.rounded {
+  object-fit: cover;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
 }
