@@ -113,13 +113,17 @@ height:50px
 
 img {
   display: inline;
-  margin: 0 auto;
+  margin: auto;
   height: 100%;
   width: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 img.rounded {
   object-fit: cover;
   border-radius: 50%;
   height: 100px;
   width: 100px;
+  margin-left: auto;
+  margin-right: auto;
 }
